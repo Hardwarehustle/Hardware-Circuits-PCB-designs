@@ -33,7 +33,7 @@ The design covers:
 ![3D Top View](Images/TopView.png)
 
 ### 3D Board Bottom View
-![3D Bottom View](Images/BottomView.png)
+![3D Bottom View](Images/BottomVIew.png)
 
 ---
 
