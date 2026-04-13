@@ -26,7 +26,7 @@ The design covers:
 ![Schematic](SCH.jpg)
 
 ### PCB Layout (2D)
-![PCB Layout](PCB_Layout.png)
+![PCB Layout](Images/PCB_Layout.png)
 
 ### 3D Board View
 ![3D Top View](top_view.jpg)
