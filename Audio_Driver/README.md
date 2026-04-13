@@ -24,10 +24,16 @@ The design covers:
 ## 🖼️ Project Visuals
 
 ### Schematic
-![Schematic](images/schematic.jpg)
+![Schematic](Images/SCH.png)
 
-### PCB Layout (2D)
-![PCB Layout](images/PCB_Layout.jpg)
+### PCB Layout
+![PCB Layout](Images/PCB_Layout.png)
+
+### 3D Board Top View
+![3D Top View](Images/TopView.png)
+
+### 3D Board Bottom View
+![3D Bottom View](Images/BottomView.png)
 
 ---
 
