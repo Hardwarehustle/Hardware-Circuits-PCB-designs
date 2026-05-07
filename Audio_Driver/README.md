@@ -1,4 +1,4 @@
-# 🔊 Audio Driver Circuit — TDA2030L-Based Hi-Fi Audio Amplifier PCB
+# Audio Driver Circuit — TDA2030L-Based Hi-Fi Audio Amplifier PCB
 
 > **Designed by:** Janardhan BV  
 > **Tool:** EasyEDA  
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a compact, single-channel **Hi-Fi audio power amplifier** built around the **TDA2030L-TBS-T** — a monolithic Class AB audio amplifier IC in the Pentawatt® package. The circuit takes an analog audio input, amplifies it using a fixed-gain inverting feedback network, and drives a speaker or load at the output. Designed on a 2-layer PCB in EasyEDA, the board is optimized for low noise, stable gain, and minimal external components.
 
@@ -21,7 +21,7 @@ The design covers:
 
 ---
 
-## 🖼️ Project Visuals
+## Project Visuals
 
 ### Schematic
 ![Schematic](Images/SCH.png)
@@ -37,7 +37,7 @@ The design covers:
 
 ---
 
-## ⚙️ Circuit Theory & Working
+## Circuit Theory & Working
 
 The **TDA2030L** is a 5-pin Class AB amplifier IC. The audio signal enters at **Pin 1 (Non-Inverting Input)** through an input coupling capacitor (C1 = 0.1µF), which blocks any DC offset from the source. The gain is set by the **negative feedback network** formed by R1 and R2:
 
@@ -51,7 +51,7 @@ The amplified signal at **Pin 4 (Output)** passes through an output coupling cap
 
 ---
 
-## 📊 Component List (BOM)
+## Component List (BOM)
 
 | Ref | Component | Value / Part No. | Function |
 |:---:|:---|:---|:---|
@@ -74,7 +74,7 @@ The amplified signal at **Pin 4 (Output)** passes through an output coupling cap
 
 ---
 
-## 🔩 IC Specifications — TDA2030L-TBS-T
+## IC Specifications — TDA2030L-TBS-T
 
 | Parameter | Value |
 |:---|:---|
@@ -90,7 +90,7 @@ The amplified signal at **Pin 4 (Output)** passes through an output coupling cap
 
 ---
 
-## 🏗️ PCB Design Highlights
+## PCB Design Highlights
 
 - **EDA Tool:** EasyEDA (Schematic + PCB Layout)
 - **Layer Stack:** 2-layer PCB (Red = Top copper, Blue = Bottom copper)
@@ -104,7 +104,7 @@ The amplified signal at **Pin 4 (Output)** passes through an output coupling cap
 
 ---
 
-## 🔌 Pin Configuration — TDA2030L
+## Pin Configuration — TDA2030L
 
 | Pin | Name | Function |
 |:---:|:---|:---|
@@ -116,7 +116,7 @@ The amplified signal at **Pin 4 (Output)** passes through an output coupling cap
 
 ---
 
-## 🧪 Testing & Bring-Up Procedure
+## Testing & Bring-Up Procedure
 
 ### Step 1 — Visual Inspection
 - Verify IC orientation (TDA2030 Pin 1 marker)
@@ -142,7 +142,7 @@ The amplified signal at **Pin 4 (Output)** passes through an output coupling cap
 
 ---
 
-## 📐 Gain Calculation
+## Gain Calculation
 
 ```
 Closed-loop Voltage Gain (Av) = 1 + R1/R2
@@ -158,7 +158,7 @@ Max output swing limited by supply voltage and load impedance
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Audio-Driver-Circuit/
@@ -174,7 +174,7 @@ Audio-Driver-Circuit/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **EasyEDA** (browser-based EDA, free) or any Gerber viewer
@@ -190,7 +190,7 @@ Audio-Driver-Circuit/
 
 ---
 
-## ⚠️ Design Notes & Cautions
+## Design Notes & Cautions
 
 - **Heatsink is recommended** for U1 (TDA2030L) at loads above 2W continuous
 - **C5 polarity** must be correct — positive terminal towards IC output (Pin 4)
@@ -200,18 +200,18 @@ Audio-Driver-Circuit/
 
 ---
 
-## 📄 License
+## License
 
 This project is open for educational and personal use.  
 © 2025 Janardhan BV — All rights reserved.
 
 ---
 
-## 🙋 Author
+## Author
 
 **Janardhan BV**  
 Embedded Hardware Engineer | PCB Design | Power Electronics  
-📍 Bengaluru, India
+Bengaluru, India
 
 ---
 *Designed in EasyEDA | TDA2030L Class AB Audio Amplifier*
